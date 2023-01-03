@@ -48,6 +48,7 @@ public class charcount {
             }
             LongWritable v2 = new LongWritable(count);
             context.write(key,v2);
+            //项目更新了
         }
 
     }
